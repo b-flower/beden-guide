@@ -175,12 +175,26 @@ Elle permet de définir :
 
 
 # Mailing
-Les mailings permettent de notifier les participants d'un parcours, du démarrage d'une étape ou de relancer les participants sur une étape donnée.
+Les mailings permettent d'adresser des messages par email aux membres d'une organisation ou aux participants d'un parcours.
+
+Les mailing sont utilisés de manière automotique pour notifier les participants d'un parcours, du démarrage d'une étape. Ces mails contiennent un lien vers l'étape démarrée.
 
 
 
 # Notification
 
+
+# Tableau de bord participant
+
+
+# Lien étape
+
+Les notifications de démarrage d'étape ou de relance d'étape par emails de b-eden intègre un lien direct vers l'étape concernée.
+Ces liens identifient à la fois l'étape et le membre ce qui permet à l'utilisateur qui clique sur le lien de :
+* se connecter automatiquement à b-eden (pas de saisie le login/mot de passe)
+* accéder directement à l'étape
+
+Pour des raisons de sécurité, ces liens ne sont valables que 20 jours.
 
 # Pédagogie LEARN
 
