@@ -109,27 +109,77 @@ L'objectif du quiz est de :
 * Valider les acquis
 
 
-Le quiz peut être utilisé post ou pré formation, ou comme un élément même de formation.
+Le quiz peut être utilisé post ou pré formation, ou comme un élément même de formation (parcours intégrant uniquement un ensemble de quiz).
 
 
 
 # E-learning
 L'e-learning est un type de module.
 
+Il est composé uniquement de médias.
 
 
 # Media
+Un média est un contenu qui est utilisé dans un ou plusieurs modules de type e-learning ou ou quiz.
+
+Un media peut être :
+* une image
+* une photo
+* une vidéo
+* un texte
+* un document office (word, powerpoint, excel)
+* un pdf
+* un lien vers une vidéo (youtube, vimeo, dailymotion)
+
+
+# Bibliothèque de médias
+La bibliothèque de médias regroupe l'ensemble des médias d'une organisation.
 
 # Parcours
+Un parcours représente un ensemble de modules adressés à un ensemble de membres.
+
+Les modules inscrits dans un parcours représentent les étapes du parcours.
+Les membres inscrits dans un parcours sont les participants du parcours.
 
 # Participant
+Un participant est l'association d'un membre à un parcours.
+Le participant suit le parcours en participant à toutes ses étapes.
+
 
 # Etape
+Une étape est un module inscrit dans un parcours.
+L'étape peut être démarrée soit :
+* manuellement
+* au démarrage du parcours
+* à date défini
+* en fonction de la réalisation de l'étapes précédente
+
+Les étapes liées à un module de formation doivent nécessairement définir des sessions. 
+Le démarrage et la réalisation d'une étape de formation est obligatoirement liée à ses sessions.
+
+Quand un parcours comprend une étape de formation, tous les participants doivent être associés à une session.
+
 
 # Session
+Un session est définie uniquement dans une étape liée à un module de type formation.
+
+Une étape liée à un module de type formation doit obligatoirement avoir au moins une session definie.
+
+Elle permet de définir :
+* la date de la session
+* le lieu de la session
+* le formateur
+* les participants de la session
+ 
+
 
 
 # Mailing
+Les mailings permettent de notifier les participants d'un parcours, du démarrage d'une étape ou de relancer les participants sur une étape donnée.
+
+
+
+# Notification
 
 
 # Pédagogie LEARN
