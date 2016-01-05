@@ -4,5 +4,8 @@
     },
     
     "title": "Guide utilisateur b-eden",
-    "language": "fr"
+    "language": "fr",
+    "styles": {
+        "website": "styles/website.css"
+    }
 } 
